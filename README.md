@@ -1,6 +1,6 @@
 # Logo Marquee Section
 
-A responsive logo marquee section built with React, TypeScript, Vite, Tailwind CSS, semantic HTML, and CSS animations.
+A responsive logo marquee section built with React, TypeScript, Vite, semantic HTML, and CSS animations.
 
 ## Live Demo
 
@@ -27,7 +27,7 @@ A responsive logo marquee section built with React, TypeScript, Vite, Tailwind C
 - Global CSS and base font styles live in `src/index.css`
 - Section layout, marquee animation, and accessibility utility styles live in `src/App.css`
 - Logo SVG assets live in `src/assets`
-- Vite is configured with the React and Tailwind plugins
+- Vite is configured with the React plugin
 - Vite uses `base: '/logo-marquee-section/'` so built assets resolve correctly on GitHub Pages
 - GitHub Pages deployment lives in `.github/workflows/deploy.yml`
 
@@ -62,7 +62,6 @@ The logo row uses two repeated copies of the same logo collection. The animation
 - React
 - TypeScript
 - Vite
-- Tailwind CSS
 - CSS3
 - ESLint
 - GitHub Pages
